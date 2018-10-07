@@ -2,15 +2,15 @@
 	"coin": "XXXX",
 	"node": "http://localhost:XXXX",
 	"nodepay": "http://localhost:XXXX",
-	"pubkey": "",
-	"address": "",
-	"percentage": ,
+	"pubkey": "XXXX",
+	"address": "XXXX",
+	"percentage": XX,
 	"logfile": "poollogs.json",
 	"minpayout": 1.0,
 	"secret": "SECRET",
 	"secondsecret": "SECRET2",
 	"feededuct": false,
-    "donations": {
+    "donations": {"ADDRESSEXAMPLEXXXX": XAMOUNTX
     },
     "donationspercentage": {
 	},
