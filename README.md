@@ -5,7 +5,22 @@ use this software:
 - "7725849364280821971S" for shift
 - "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark
 - "8691988869124917015R" for rise
+## This forked version of dakk's lisk-pool script has been stripped of coin specific info in config for easier set-up. Replace XXXX with appropriate info for your application. You can also just fork or clone his original version. This must be run alongside a node. 
 
+LWF uses ports 18124 for node and nodepay. Remove/replace donation address example. Otherwise follow configuration instructions below. 
+For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpool.py slightly after cloning onto your vps.
+
+```nano liskpool.py``` and change line 8 to False
+
+Test it! Make sure you set up poollogs and set timestamp as described. Test with:
+
+```python3 liskpool.py``` 
+
+If config is right it will produce a list of payouts, choose N at end to not save. Check for proper calculation. If you get errors check config.json where you made changes. 
+
+Run batch.sh for a full payout. This can be run by cron to automate.
+
+```bash batch.sh```
 
 ## Configuration
 Fork this repo; edit config.json and modify the first lines with your settings:
