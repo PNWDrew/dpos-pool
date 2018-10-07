@@ -5,7 +5,7 @@ use this software:
 - "7725849364280821971S" for shift
 - "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark
 - "8691988869124917015R" for rise
-## This forked version of dakk's lisk-pool script has been stripped of coin specific info in config for easier set-up. Replace XXXX with appropriate info for your application. You can also just fork or clone his original version. This must be run alongside a node. 
+## This forked version of dakk's lisk-pool script has been stripped of coin specific info in config for easier set-up. Replace XXXX with appropriate info for your application. You can also just fork or clone his original version and make same edits. This must be run alongside a node. 
 
 LWF uses ports 18124 for node and nodepay. Remove/replace donation address example. Otherwise follow configuration instructions below. 
 For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpool.py slightly after cloning onto your vps.
