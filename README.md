@@ -12,6 +12,7 @@ For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpoo
 
 ```nano liskpool.py``` and change line 8 to False
 
+Set up as described by dakk below.
 Test it! Make sure you set up poollogs and set timestamp as described. Test with:
 
 ```python3 liskpool.py``` 
