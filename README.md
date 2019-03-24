@@ -7,7 +7,7 @@ use this software:
 - "8691988869124917015R" for rise
 ## This forked version of dakk's lisk-pool script has been stripped of coin specific info in config for easier set-up. Replace XXXX with appropriate info for your application. You can also just fork or clone his original version and make same edits. This must be run alongside a node. 
 
-LWF uses ports 18124 for node and nodepay. Remove/replace donation address example. Otherwise follow configuration instructions below. 
+Remove/replace donation address example. Otherwise follow configuration instructions below. 
 For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpool.py slightly after cloning onto your vps.
 
 ```nano liskpool.py``` and change line 8 to False
@@ -53,7 +53,7 @@ If you want to run a private pool, you need to edit config.json and:
 - whitelist: put a list of address you wish to include
 
 ### Ark & Kapu
-If you are using this software on ark, you should edit pollogs_example_ark.json and put:
+If you are using this software on ark, you should edit poollogs_example_ark.json and put:
 
 - lastpayout: the unixtimestamp of your last payout or the date of pool starting 
 - lastforged: the forged amount recorded in your last payout or the forged amount of pool starting
