@@ -66,9 +66,9 @@ Also, replace docs/index.html with docs/index.ark.html
 
 First clone the lisk-pool repository and install requests:
 
-```git clone https://github.com/dakk/lisk-pool```
+```git clone https://github.com/PNWDrew/dpos-pool``` you can change directory name to whatever you'd prefer
 
-```cd lisk-pool```
+```cd dpos-pool```
 
 ```apt-get install python3-pip```
 
