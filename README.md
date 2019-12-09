@@ -41,10 +41,10 @@ Fork or clone this repo; edit config.json and modify the first lines with your s
 - logfile: file where you want to write pending and sent amounts
 - feededuct: true if you want to subtract fees from user payouts
 
-Now edit docs/index.html and customize the webpage.
 
 Finally edit poollogs_example.json and put in lastpayout the unixtimestamp of your last payout or the
-date of pool starting; then move poollogs_example.json to poollogs.json.
+date of pool starting; then ```mv poollogs_example.json to poollogs.json```
+Now edit docs/index.html and customize the webpage if desired
 
 ### Private pool
 If you want to run a private pool, you need to edit config.json and:
