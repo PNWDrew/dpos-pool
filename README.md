@@ -13,18 +13,18 @@ For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpoo
 ```nano liskpool.py``` and change line 8 to False
 
 Set up as described by dakk below.
-Test it! Make sure you set up poollogs and set timestamp as described. Test with:
+Test it! Make sure you nano poollog.jsan and set timestamp as described. Test with:
 
 ```python3 liskpool.py``` 
 
-If config is right it will produce a list of payouts, choose N at end to not save. Check for proper calculation. If you get errors check config.json where you made changes. 
+If config is right it will produce a list of payouts, choose N at end to not save. Check for proper calculation. If you get errors check config.json where you made changes. Error with line # will usually be listed. If it lists a bunch of reasonable payments that part is fine.
 
 Run batch.sh for a full payout. This can be run by cron to automate.
 
 ```bash batch.sh```
 
 ## Configuration
-Fork this repo; edit config.json and modify the first lines with your settings:
+Fork or clone this repo; edit config.json and modify the first lines with your settings:
 
 - pubkey: your delegate pubkey
 - address: your delegate address
