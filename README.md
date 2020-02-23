@@ -6,7 +6,7 @@ use this software:
 - "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark
 - "8691988869124917015R" for rise
 
-
+## This is simply stripped of Lisk info, otherwise largely same as dakk's original. Tip the man!!!
 ## Configuration
 Fork this repo; edit config.json and modify the first lines with your settings:
 
@@ -57,7 +57,7 @@ First clone the lisk-pool repository and install requests:
 
 ```pip3 install requests```
 
-If you are using lisk 1.0.0 or rise 1.0.0 you need to dpos-api-fallback:
+If you are using lisk 1.0.0 or rise 1.0.0 you need to dpos-api-fallback as well as nodejs >= 6
 
 ```bash
 git clone https://github.com/vekexasia/dpos-api-fallback
