@@ -4,7 +4,7 @@ import sys
 import time
 import argparse 
 
-ENABLE_VERSION_1 = False
+ENABLE_VERSION_1 = True
 
 if sys.version_info[0] < 3:
 	print ('python2 not supported, please use python3')
