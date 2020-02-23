@@ -117,7 +117,7 @@ optional arguments:
   --min-payout MINPAYOUT
                         override the minpayout value from config file
 ```
-
+## This has been changed already
 ## Lisk 1.0.0 and Rise 1.0.0 migration
 
 Since Lisk version 1.0.0 and Rise version 1.0.0, APIs with secret used for creating 
@@ -126,7 +126,7 @@ transaction are not available anymore, so we need to use the dpos-api-fallback
 
 Since this version is not yet the default, you should edit liskpool.py and set
 the variable ENABLE_VERSION_1 to true:
-
+## changed in this fork for Rise
 ```python
 ENABLE_VERSION_1 = True
 ```
