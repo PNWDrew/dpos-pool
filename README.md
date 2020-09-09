@@ -11,9 +11,9 @@ Remove/replace donation address example. Otherwise follow configuration instruct
 For LWF usage (or any older lisk forks, Shift, Sauco) you must also edit liskpool.py slightly after cloning onto your vps.
 
 ```nano liskpool.py``` and change line 8 to False
-
+```cp poollogs_example.json poollogs.json```
 Set up as described by dakk below.
-Test it! Make sure you edit poollog.json and set timestamp as described. Test with:
+Test it! Make sure you edit poollogs.json and set timestamp as described. Test with:
 
 ```python3 liskpool.py``` 
 
